@@ -1,8 +1,6 @@
 # my-photo-enhancer
 Restore damaged photos using GFPGAN and Real-ESRGAN with a Streamlit web interface.
 
-Restore damaged photos using GFPGAN and Real-ESRGAN with a Streamlit web interface.
-
 ## Overview
 
 My Photo Enhancer is a Python web application for restoring old and damaged photographs using state-of-the-art deep learning models. It combines facial restoration, image upscaling, and optional scratch removal through an intuitive Streamlit interface, allowing users to enhance historical or degraded images with minimal effort.
