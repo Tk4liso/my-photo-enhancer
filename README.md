@@ -56,13 +56,15 @@ streamlit run app.py
 
 ```text
 my-photo-enhancer/
-├── app.py
-├── pages/
-├── components/
-├── models/
-├── utils/
-├── assets/
+├── src/
+│   ├── __init__.py
+│   ├── model.py      # AI model loading and inference
+│   ├── ui.py         # Streamlit interface components
+│   └── utils.py      # Helper functions
+├── app.py            # Application entry point
+├── config.py         # Configuration settings
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
